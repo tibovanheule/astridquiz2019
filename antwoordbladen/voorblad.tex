@@ -1,0 +1,54 @@
+\documentclass{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{dblfloatfix}
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
+\pointname{punten}
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+\begin{document}
+\begin{titlepage}
+\center
+\includegraphics[scale=0.08]{astrid}
+\linebreak
+\linebreak
+\linebreak
+\vspace{1em}{\huge \bfseries  De Astrid Quiz }
+\linebreak
+
+\vspace{1em}{\LARGE  Door cultuur home astrid} 
+            \linebreak
+\vspace{1em}{\large 18 maart astrid}
+	\begin{center}
+	\fbox{\fbox{\parbox{5.5in}{\centering
+	De Regels
+	\begin{enumerate}
+	\item{Zoals bij elke quiz zijn er geen hulpmiddelen toegestaan! Gelieve uw gsm op stil te zetten en in het zakje op de tafel te steken.}
+	\item{De punten die bij elke vraag te verdienen zijn, zijn altijd aangegeven op het antwoorden blad.}
+	\item{Er is een bierprijs voorzien. De bar zal het aantal online bijhouden. Je kunt dit dus ook meevolgen op het computerscherm bij de bar.}
+	\end{enumerate}
+	}}}
+	\end{center}
+\end{titlepage}
+
+\newpage
+
+\input{ronde1}
+\input{ronde2}
+\input{ronde3}
+\input{ronde4}
+\input{ronde5}
+\input{ronde6}
+\input{ronde7}
+\input{ronde8}
+\input{tafelronde2}
+\input{tussenronde3}
+
+\end{document}

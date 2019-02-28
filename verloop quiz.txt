@@ -1,0 +1,30 @@
+verloop quiz:
+deel 1:
+	tafelronde 1:
+		trivia
+		nostalgie
+	---einde tafelronde 1---
+	tafelronde 2:
+		fetisch
+		reclame
+	---einde tafelronde 2---
+---pauze---
+deel 2:
+	tafelronde 3:
+		sport
+		wereldreis
+		bierlogo
+	---einde tafelronde 3---
+		muziek
+---pauze---
+---prijsuitrijking---
+
+
+
+
+
+
+
+
+
+

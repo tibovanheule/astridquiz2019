@@ -8,24 +8,38 @@
   \csname the#1\endcsname\quad
   \fi}
 \makeatother
-\pointname{punten}
-\thispagestyle{empty}
-\pagestyle{empty}
+% naam punten
+\pointname{ punten}
+%hoogte header
+\setlength\headheight{40pt} 
+%header
+\chead{
+{
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\centering Astrid quiz \linebreak
+Schrijf hier uw antwoorden op. Er ook zijn notitie bladeren meegegeven.}}}
+\end{center}
+\makebox[\textwidth]{Teamnaam:\enspace\hrulefill}
+\makebox[\textwidth]{Teamnummer:\enspace\hrulefill}}}
+\cfoot{\includegraphics[scale=0.01]{astrid}}
+
 
 
 \begin{document}
+\thispagestyle{empty}
 \begin{titlepage}
 \center
 \includegraphics[scale=0.08]{astrid}
 \linebreak
 \linebreak
 \linebreak
+
 \vspace{1em}{\huge \bfseries  De Astrid Quiz }
 \linebreak
 
 \vspace{1em}{\LARGE  Door cultuur home Astrid} 
             \linebreak
-\vspace{1em}{\large 18 maart 2019}
+\vspace{1em}{\large 18 maart Astrid}
 	\begin{center}
 	\fbox{\fbox{\parbox{5.5in}{\centering
 	De Regels
@@ -41,7 +55,6 @@
 \newpage
 
 \input{ronde1}
-\input{ronde1_min}
 \input{ronde2}
 \input{ronde3}
 \input{ronde4}
@@ -49,6 +62,9 @@
 \input{ronde6}
 \input{ronde7}
 \input{ronde8}
+%eruit te halen
+\input{ronde1_min}
+\input{tafelronde1}
 \input{tafelronde2}
 \input{tussenronde3}
 

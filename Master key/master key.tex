@@ -1,0 +1,52 @@
+\documentclass{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{dblfloatfix}
+\usepackage{amsmath}
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
+% naam punten
+\pointname{ punten}
+%hoogte header
+\setlength\headheight{40pt} 
+%header
+\chead{\LARGE{MASTER KEY}}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+\begin{titlepage}
+\center
+\includegraphics[scale=0.08]{astrid}
+\linebreak
+\linebreak
+\linebreak
+
+\vspace{1em}{\huge \bfseries  MASTER KEY!!! \linebreak\linebreak De Astrid Quiz }
+\linebreak
+
+\vspace{1em}{\LARGE  Door cultuur home Astrid} 
+            \linebreak
+\vspace{1em}{\large 18 maart Astrid}
+\end{titlepage}
+
+\newpage
+ 
+\input{ronde1}
+\input{ronde2}
+\input{ronde3}
+\input{ronde4}
+\input{ronde5}
+\input{ronde6}
+\input{ronde7}
+\input{ronde8}
+\input{tafelronde1}
+\input{tafelronde2}
+\input{tussenronde3}
+
+\end{document}
